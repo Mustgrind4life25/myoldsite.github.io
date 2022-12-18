@@ -1,0 +1,428 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	/*blue hue*/
+	/*#21325E*/
+}
+
+body{
+	background: #fff;
+}
+
+img{
+	width: 100%;
+}
+
+#top-header{
+	background: #21325E;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/*border: 2px solid;*/
+}
+
+
+/*Top header section*/
+.flex-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	column-gap: 5px;
+}
+
+
+/* My Logo */
+.my-logo{
+	width: 175px;
+}
+
+.flex-container a{
+	margin: 3px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.menu-line{
+	width: 20px;
+	height: 3px;
+	background: #fff;
+	margin-bottom: 4px;
+}
+
+.menu{
+	display: none;
+}
+
+/*#nav-list{
+	
+}*/
+
+.push{
+	margin-left: auto;
+}
+
+
+.hire-btn{
+	background: #fff;
+	color: #21325E;
+	border: 1px solid #fff;
+	padding: 12px;
+	border-radius: 25px;
+}
+
+/*.hire-btn:hover{
+	background: #fff;
+	border: 1px solid #21325E;
+	color: #21325E;
+}*/
+
+/* header name section */
+.header-name{
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+.header-name h1{
+	color: #000;
+	text-transform: uppercase;
+}
+
+
+/* skills section */
+#bio-skills{
+	margin: auto;
+	line-height: 1.5;
+	padding-bottom: 10px;
+	/*border: 2px solid;*/
+}
+
+.bio-skills-container{
+	display: flex;
+	flex-direction: row;
+	column-gap: 10em;
+	margin-left: 50px;
+	/*flex-wrap: wrap;*/
+}
+
+
+.header-skills{
+	color: #000;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.header-skills-para{
+	color: #000;
+	width: 600px;
+}
+
+.skills{
+	padding-bottom: 15px;
+}
+
+.skills-icon{
+	width: 80px;
+}
+
+#projects-btn{
+	padding-top: 30px;
+}
+
+.projects-btn{
+	margin-left: 50px;
+	color: #fff;
+	background: #21325E;
+	padding: 13px;
+	border-radius: 15px;
+	/*width: 70%;*/
+}
+
+/* projects section */
+
+#projects{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* portfolio header */
+.portfolio-header{
+	font-size: 2em;
+	font-weight: 600;
+	color: #000;
+	text-align: center;
+}
+
+.projects-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 40px 30px;
+}
+
+/* card for projects */
+.card{
+	width: 270px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.card h3{
+	padding: 10px;
+}
+
+.card p{
+	padding: 10px;
+}
+
+.card a{
+	background-color: #fff;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+}
+
+.card-main{
+	background-color: #fff;
+	color: #000;
+	width: 270px;
+	margin: 10px;
+	border-top: 4px solid #21325E;
+	border-bottom: 2px solid #21325E;
+	border-radius: 5px;
+	padding: 0 3px 4px 0;
+}
+
+
+.card-main a{
+	background-color:  #21325E;
+	color: #fff;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+}
+
+.card-img{
+	height: 160px;
+	background: #000;
+	background-size: cover;
+	margin-bottom: 15px;
+}
+
+.card-1{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/nike-pic-fliex.JPG?raw=true");
+}
+
+.card-2{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/chewy-pic.PNG?raw=true");
+}
+
+.card-3{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/footlocker-email-pic.PNG?raw=true");
+}
+
+.card-4{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/sneakercloset-img.JPG?raw=true");
+}
+
+.card-5{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/newsletter-img.PNG?raw=true");
+}
+
+.card-6{
+	background-image: url("https://github.com/Mustgrind4life25/portfoliotest.github.io/blob/main/img/luxurymotors-website-img.JPG?raw=true");
+}
+
+.card-7{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/boxing-fitness-img.PNG?raw=true");
+}
+
+.card-8{
+	background-image: url("https://github.com/Mustgrind4life25/julianwebsite.github.io/blob/main/img/restaurant-pic-website.PNG?raw=true");
+}
+
+.card-headers{
+	color: #000;
+	text-align: center;
+	padding: 5px 0;
+}
+
+
+.card:hover{
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 1s ease;
+}
+
+.card-btn:hover{
+	border: 2px solid #21325E;
+	background: #fff;
+	color: #21325E;
+}
+
+
+/* contact section */
+#contact{
+	background: #21325E;
+}
+
+.contact-header{
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.contact-container{
+	margin: auto;
+	max-width: 850px;
+}
+
+.contact-container form{
+	display: flex;
+	flex-direction: column;
+}
+
+form label{
+	color: #fff;
+}
+
+.email{
+	margin-bottom: 10px;
+}
+
+textarea{
+	margin-bottom: 15px;
+}
+
+.form-btn{
+	background: #fff;
+	color: #21325E;
+	padding: 5px 5px;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+
+
+/* footer section */
+#footer{
+	display: flex;
+	justify-content: center;
+	background: #21325E;
+	padding: 10px;
+}
+
+.github-link{
+	color: #fff;
+	text-align: center;
+}
+
+.github-link:hover{
+	background: #fff;
+	color: #21325E;
+	padding: 5px;
+}
+
+#copy-right{
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+.copy-right-container{
+	color: #21325e;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 600px){
+	#top-header{
+		position: relative;
+		flex-direction: column;
+		padding: 35px;
+	}
+	
+	.my-logo{
+		position: absolute;
+		left: 0;
+		top: -25px;
+		width: 110px;
+	}
+	.menu{
+		display: block;
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		cursor: pointer;
+	}
+
+	.flex-container{
+		width: 100%;
+		text-align: center;
+		padding-top: 10px;
+		display: none;
+	}
+	.list-item{
+		display: block;
+		margin: 20px;
+	}
+
+	.hire-btn{
+		padding: 8px;
+	}
+
+	.active{
+		display: block;
+	}
+
+	.contact-container{
+		padding: 20px;
+		width: auto;
+	}
+	span{
+		width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 900px){
+	.bio-skills-container{
+		flex-wrap: wrap;
+		padding: 20px;
+	}
+	.header-skills-para{
+		width: 100%;
+	}
+	.skills{
+		padding: 15px 0;
+	}
+}
+
+
+@media screen and (max-width: 965px){
+	.projects-container{
+		flex-wrap: wrap;
+		padding: 20px;
+		justify-content: center;
+	}
+	.contact-container{
+		padding: 20px;
+	}
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
